@@ -1,0 +1,23 @@
+ :root {
+   color-scheme: dark;
+ }
+ 
+ * {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ html, body, #root {
+   height: 100%;
+ }
+ 
+ body {
+   font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+   background: radial-gradient(1200px 800px at 10% 10%, #2a2a72 0%, rgba(0,0,0,0) 60%),
+               radial-gradient(1000px 700px at 90% 90%, #009ffd 0%, rgba(0,0,0,0) 55%),
+               linear-gradient(180deg, #0f172a 0%, #0b1220 100%);
+   color: #e5e7eb;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ }
